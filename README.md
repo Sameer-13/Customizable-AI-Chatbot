@@ -24,5 +24,11 @@ pip install -r requirements.txt
 4. Go to config.py and write in it your OpenAI key
 ```
 
+## Get Started
+After done the installation successfully and activate the streamlit env, run the following command in the cmd:
+```bash
+streamlit run main.py
+```
+
 ## Authors
 Sameer Alsabei (Sameer-13) [Twitter](https://mobile.twitter.com/Sameer_Alsabei), [Linked in](https://www.linkedin.com/in/sameer-alsabea-610291239/)
