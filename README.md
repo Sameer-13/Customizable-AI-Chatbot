@@ -1,7 +1,12 @@
 # Customizable-AI-Chatbot
 
-## Installation
+## Introduction
 
+
+## Overveiw
+
+
+## Installation
 * Setup conda environment (recommended):
 ```bash
 # Create a conda environment
@@ -18,3 +23,6 @@ pip install -r requirements.txt
 3. Create a new secret key, and save it somewhere so that you don't lose it.
 4. Go to config.py and write in it your OpenAI key
 ```
+
+## Authors
+Sameer Alsabei (Sameer-13) [Twitter](https://mobile.twitter.com/Sameer_Alsabei), [Linked in](https://www.linkedin.com/in/sameer-alsabea-610291239/)
