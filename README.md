@@ -4,7 +4,8 @@
 
 
 ## Overveiw
-
+![image](https://github.com/Sameer-13/Customizable-AI-Chatbot/assets/106761486/772fd35d-b5b2-4244-a36f-6c213954e049)
+![image](https://github.com/Sameer-13/Customizable-AI-Chatbot/assets/106761486/cad22fea-43c2-48c5-b5d6-6e1f00bf8d8b)
 
 ## Installation
 * Setup conda environment (recommended):
