@@ -12,6 +12,9 @@ conda activate streamlit
 pip install -r requirements.txt
 ```
 * Setup OpenAI Key:
-1. Create an account in Openai
+```
+1. Create an account in OpenAI
 2. Go to API Keys. Now 
 3. Create a new secret key, and save it somewhere so that you don't lose it.
+4. Go to config.py and write in it your OpenAI key
+```
