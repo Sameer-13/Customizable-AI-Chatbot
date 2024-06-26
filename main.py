@@ -1,5 +1,6 @@
 import streamlit as st
 import openai
+import config as cfg
 
 st.set_page_config(page_title="Chatbot", layout="wide", initial_sidebar_state="expanded")
 
@@ -38,23 +39,23 @@ def createBot(personality,character,profession,nationality,phrase,short,emoji):
 
 
 with st.sidebar:
-    personality = st.selectbox("Personality", ["friendly", "professional", "mean", 'racist'])
-    character = st.selectbox("Character Imitation", options=["Luffy from onepiece", "Mario from Super Mario", "Pikachu from Pokemon", "Richter Belmont from Castlevania"])
-    profession = st.selectbox("Profession", options=["","Mathematician","Rapper","Computer Scientist"])
-    nationality = st.selectbox("Nationality", options=["Spanish", "Italian", "French"])
+    personality = st.selectbox("Personality", cfg.Personality_list)
+    character = st.selectbox("Character Imitation", options=cfg.Character_list)
+    profession = st.selectbox("Profession", options=cfg.Profession_list)
+    nationality = st.selectbox("Nationality", options=cfg.National)
     phrase = st.text_input("Catchphrase")
     short = st.toggle("Make responses short", value=False)
     emoji = st.toggle("Make assistant emoji fanatic")
     st.button("Unleash Assistant Chatbot!", args=(personality,character,profession,nationality,phrase,short,emoji), on_click=createBot)
     
-st.header("Assistant Chatbot Maker 🤖")
+st.header("Assistant Chatbot Maker")
 
 if not st.session_state.bot: 
     st.markdown("<h6>Fill out the necessary fields in the sidebar and click generate to make your own assistant chatbot!</h6>", unsafe_allow_html=True)
 else:
-    openai.api_key = "" # Add your OpenAI API key here
+    openai.api_key = cfg.OpenAI_API_KEY
     if "openai_model" not in st.session_state:
-        st.session_state["openai_model"] = "gpt-3.5-turbo"
+        st.session_state["openai_model"] = cfg.OpenAI_MODEL
     
     for massage in st.session_state.messages[1:]:
         with st.chat_message(massage["role"]):
