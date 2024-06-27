@@ -11,7 +11,7 @@ This project allows you to create and interact with a custom-tailored AI chatbot
 * Interactive Chat: Engage in a conversation with your chatbot by entering prompts and receiving responses.
 
 ## Overveiw
-![image](https://github.com/Sameer-13/Customizable-AI-Chatbot/assets/106761486/772fd35d-b5b2-4244-a36f-6c213954e049)
+![image_2024-06-27_05-10-38](https://github.com/Sameer-13/Customizable-AI-Chatbot/assets/106761486/5a9ef01f-436b-40d8-9f3f-8ee77a540ea7)
 
 ## Installation
 * Setup conda environment (recommended):
