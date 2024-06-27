@@ -28,15 +28,17 @@ pip install -r requirements.txt
 ```
 1. Create an account in OpenAI
 2. Go to API Keys. Now 
-3. Create a new secret key, and save it somewhere so that you don't lose it.
+3. Create a new secret key, and save it somewhere so you don't lose it.
 4. Go to config.py and write in it your OpenAI key
 ```
 
-## Get Started
-After done the installation successfully and activate the streamlit env, run the following command in the cmd:
+## Getting Started
+After successfully installing and activating the streamlit env, go to the ```config.py``` and fill the Nationality, Profession, Character, and Personality list with your personal preference and needs. 
+Lastly, run the following command in the cmd:
 ```bash
 streamlit run main.py
 ```
+Enjoy chatting with personal AI assistance!
 
 ## Authors
 Sameer Alsabei (Sameer-13) [Twitter](https://mobile.twitter.com/Sameer_Alsabei), [Linked in](https://www.linkedin.com/in/sameer-alsabea-610291239/)
