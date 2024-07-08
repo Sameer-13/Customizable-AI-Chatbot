@@ -40,4 +40,5 @@ streamlit run main.py
 Enjoy chatting with personal AI assistance!
 
 ## Authors
+Abdulhadi Zubailah (Cuphadi) [Twitter](https://mobile.twitter.com/hadizubailah), [Linked in](https://www.linkedin.com/in/abdulhadi-zubailah/)
 Sameer Alsabei (Sameer-13) [Twitter](https://mobile.twitter.com/Sameer_Alsabei), [Linked in](https://www.linkedin.com/in/sameer-alsabea-610291239/)
